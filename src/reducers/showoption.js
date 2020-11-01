@@ -1,4 +1,5 @@
 import {SHOW_OPTIONS,DELETE_REPLY_BOX,SET_REPLY,SEND_MESSAGE,SET_ACTIVE_USER_ID,} from "../constants/action-types";
+// eslint-disable-next-line
 export default (state=false,action)=>{
 	switch(action.type){
 		case SHOW_OPTIONS:
